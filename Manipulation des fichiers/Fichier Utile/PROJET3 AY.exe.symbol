@@ -1,0 +1,55 @@
+< THE SYMBOL TABLE >  PROJET3 AY.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+MSG10                    	00000     	1         	VAR       	data      
+MSG11                    	00058     	1         	VAR       	data      
+MSG12                    	00093     	1         	VAR       	data      
+NOM_FICHIER              	000CF     	1         	VAR       	data      
+REFUSE                   	000DF     	1         	VAR       	data      
+MSG2                     	000F2     	1         	VAR       	data      
+MSG3                     	00109     	1         	VAR       	data      
+NOMFICHIER               	00150     	1         	VAR       	data      
+MSG1                     	00174     	1         	VAR       	data      
+MSG15                    	0019B     	1         	VAR       	data      
+MESSAGE_ENTIER           	001BB     	1         	VAR       	data      
+MESG_ERR                 	001F7     	1         	VAR       	data      
+HANDLE2                  	00234     	2         	VAR       	data      
+ENTIER                   	00236     	1         	VAR       	data      
+ALALIGNE                 	0023F     	1         	VAR       	data      
+ENTIER2                  	00242     	1         	VAR       	data      
+SOMME                    	0024B     	1         	VAR       	data      
+MSG8                     	0024C     	1         	VAR       	data      
+MSG5                     	00296     	1         	VAR       	data      
+MSG55                    	002BE     	1         	VAR       	data      
+MSG6                     	002DE     	1         	VAR       	data      
+MSG7                     	00301     	1         	VAR       	data      
+Y                        	00324     	1         	VAR       	data      
+CODE                     	00043     	-5        	SEGMENT   	(ITSELF)  
+SAISIE_NOM_FICHIER       	00000     	-1        	NEAR      	code      
+ERREUR1                  	0001E     	-1        	LABEL     	code      
+SUIVANT                  	00042     	-1        	LABEL     	code      
+MAIN                     	00043     	-1        	NEAR      	code      
+POUR                     	000F6     	-1        	LABEL     	code      
+LECTUR                   	00101     	-1        	LABEL     	code      
+CONDIT                   	00128     	-1        	LABEL     	code      
+PASSE                    	00144     	-1        	LABEL     	code      
+ECRIR                    	0016E     	-1        	LABEL     	code      
+ERREUR                   	00180     	-1        	LABEL     	code      
+MESSAGE_ERREUR           	0018B     	-1        	LABEL     	code      
+SUIVANT1                 	00196     	-1        	LABEL     	code      
+SAUT                     	0019A     	-1        	LABEL     	code      
+FAIRE                    	001CB     	-1        	LABEL     	code      
+CALCUL                   	001F4     	-1        	LABEL     	code      
+SAISI                    	00212     	-1        	LABEL     	code      
+RECH                     	00253     	-1        	LABEL     	code      
+COMPARE                  	00269     	-1        	LABEL     	code      
+SUIVANT11                	0027A     	-1        	LABEL     	code      
+SUIVANT2                 	0028F     	-1        	LABEL     	code      
+EXIT                     	002B5     	-1        	LABEL     	code      
+===================================================================================================
+[ 08/01/2012  --  23:58:50 ] 
+< END >
+ 
